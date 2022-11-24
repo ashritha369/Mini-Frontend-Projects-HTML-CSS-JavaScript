@@ -1,0 +1,2 @@
+- initial.js file contains un-refractored code with custom user comments
+- script.js file contains the refractored code, this is linked to index.html
