@@ -13,3 +13,7 @@
 ## Use of toUpperCase()
 
 ## Use of charAt()
+
+## transition: opacity 0.2s ease-in; property
+
+- [https://www.javatpoint.com/css-transition-opacity#:~:text=Transition%20Opacity%20in%20CSS,with%20a%20defined%20time%20duration.](https://www.javatpoint.com/css-transition-opacity#:~:text=Transition%20Opacity%20in%20CSS,with%20a%20defined%20time%20duration.)

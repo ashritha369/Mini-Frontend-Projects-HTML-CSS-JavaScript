@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Finder</title>
+    <script
+      src="https://kit.fontawesome.com/77ec8e3458.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <!-- we are using flex here because we want to align things horizontally -->
+      <div class="flex">
+        <form class="flex" id="submit">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for meals or keywords"
+          />
+          <button class="search-btn" type="submit">Search <i class="fas fa-search"></i></button>
+     
+        </form>
+        <button class="random-btn" id="random">
+          <div class="fas fa-random"></div>
+        </button>
+      </div>
+    </div>
+
+    <div id="result-heading"></div>
+    <div id="meals" class="meals"></div>
+    <div id="single-meal"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
