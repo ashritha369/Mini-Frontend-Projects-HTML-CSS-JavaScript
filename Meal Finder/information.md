@@ -12,4 +12,12 @@
 
 # Search and Display Meals From API
 
-- using API:https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+- using API: (https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata)[https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata]
+
+# Lookup full meal details by id
+
+- using API (https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772)[https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772]
+
+# Working on random meal
+
+- Using API (https://www.themealdb.com/api/json/v1/1/random.php)[https://www.themealdb.com/api/json/v1/1/random.php]
