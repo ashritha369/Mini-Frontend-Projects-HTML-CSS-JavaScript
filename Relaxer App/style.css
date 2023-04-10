@@ -84,7 +84,7 @@ body {
   transform-origin: bottom center;
 }
 
-/* so keyframes works on 'rotate' which was mentioned in .pointer-con tainer */
+/* so keyframes works on 'rotate' which was mentioned in .pointer-container */
 /* https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php */
 @keyframes rotate {
   from {
