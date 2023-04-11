@@ -1,3 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: violet;
+  background-color: rgb(24, 13, 24);
+  display: flex;
+  /* align-items: center; brings element/div vertically center when display is flex*/
+  align-items: center;
+  /* justify-content: center; brings element/div horizontally center when display is flex */
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.kinetic {
+  /* background-color: blueviolet; */
+  /* relative position acts like parent position */
+  position: relative;
+  /* height: 80px;
+  width: 80px; */
+}
+/* Using two pseudo selectors as we use two triangles */
+.kinetic::after,
+.kinetic::before {
+  content: "";
+  /* acts like child position w.r.t parent relative postion */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+}
+/* TRIANGLE 1  */
+.kinetic::after {
+  /* after triangle stays at 0 deg */
+  /* for bottom base triangle */
+  border-bottom-color: #fff;
+  /* this triangle will rotate linearely with delay of 2s for each movement of deg rotation */
+  animation: rotateA 2s linear infinite 0.5s;
+}
+/* TRIANGLE 2  */
+.kinetic:before {
+  /* so before triangle rotates by 90 deg clockwise w.r.t triangle 1 */
+  transform: rotate(90deg);
+  /* for bottom base triangle */
+  border-bottom-color: yellow;
+  animation: rotateB 2s linear infinite;
+}
+
+@keyframes rotateA {
+  0%,
+  25% {
+    transform: rotate(0deg);
+  }
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateB {
+  0%,
+  25% {
+    transform: rotate(90deg);
+  }
+  50%,
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
 }
