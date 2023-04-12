@@ -5,3 +5,5 @@
 3.What is 0% 100% in keyframes?
 
 - 0% is the beginning of the animation, 100% is when the animation is complete.
+
+4. So remember triangle is formed with height and width equal to '0' px and with border to some 'x' pixel, consider to which base the triangle should sit on, if it is bottom base, give the bottom base a color and make other borders transparent.
