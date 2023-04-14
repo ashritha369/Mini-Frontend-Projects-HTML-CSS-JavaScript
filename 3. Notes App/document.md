@@ -1,0 +1,4 @@
+- Used Markup from : [https://cdnjs.com/](https://cdnjs.com/)
+- copied the script tag by searching 'marked' and copied 'marked' from `</>` i.e `<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js" integrity="sha512-zAs8dHhwlTbfcVGRX1x0EZAH/L99NjAFzX6muwOcOJc7dbGFNaW4O7b9QOyCMRYBNjO+E0Kx6yLDsiPQhhWm7g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>`
+- used fontawesome : [https://fontawesome.com/docs/web/setup/get-started](https://fontawesome.com/docs/web/setup/get-started) (logged in with 666 gmail id) paste the unique script tag
+-
