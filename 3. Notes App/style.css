@@ -13,7 +13,7 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background-color: rgb(225, 68, 225);
+  background-color: purple;
   color: white;
   border-radius: 4px;
   border: none;
@@ -30,7 +30,7 @@ body {
 }
 
 .note .tools {
-  background-color: rgb(225, 68, 225);
+  background-color: purple;
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem;
@@ -57,4 +57,13 @@ body {
 
 .hidden {
   display: none;
+}
+/* BELOW STYLES ARE ADDED TO UNDERSTAND THE ROLE OF MAIN CLASS AND TEXTAREA, comment is out once understood */
+.main {
+  background-color: rgb(246, 229, 248);
+  padding: 20px;
+}
+
+textarea {
+  background-color: rgb(248, 248, 180);
 }
