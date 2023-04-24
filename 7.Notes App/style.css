@@ -29,13 +29,6 @@ body {
   width: 400px;
 }
 
-.note .tools {
-  background-color: purple;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem;
-}
-
 .note .tools button {
   background-color: transparent;
   color: white;
@@ -54,16 +47,58 @@ body {
   width: 100%;
   padding: 20px;
 }
+/*  --------------------- */
 
-.hidden {
-  display: none;
-}
-/* BELOW STYLES ARE ADDED TO UNDERSTAND THE ROLE OF MAIN CLASS AND TEXTAREA, comment is out once understood */
-.main {
-  background-color: rgb(246, 229, 248);
-  padding: 20px;
+h1 {
+  color: rgb(226, 131, 218);
+  font-size: 1rem;
+  text-align: center;
 }
 
-textarea {
-  background-color: rgb(248, 248, 180);
+form {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  border: none;
+  color: #444;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: rgb(179, 131, 226);
+}
+
+.todos {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 1rem 2rem;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+small {
+  color: #b5b5b5;
+  margin-top: 3rem;
+  text-align: center;
 }
