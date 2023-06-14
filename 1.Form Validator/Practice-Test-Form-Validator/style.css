@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(247, 221, 247);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label,
+.field-value {
+  margin: 2px;
+}
