@@ -43,7 +43,7 @@ function checkNumber(msg) {
   }
   // check num
   if (num === randomNum) {
-    document.body.innerHTMl = `<h2>Congrats! You have guessed the number!<br> <br>It was ${num}<br></h2>
+    document.body.innerHTML = `<h2>Congrats! You have guessed the number!<br> <br>It was ${num}<br></h2>
     <button class="play-again" id="play-again">Play Again</button>
     `;
   } else if (num > randomNum) {
@@ -62,3 +62,9 @@ recognition.addEventListener("result", onSpeak);
 
 //End SR Service
 recognition.addEventListener("end", () => recognition.start());
+
+document.body.addEventListener("click", (e) => {
+  if (e.target.id == "play-again") {
+    window.location.reload();
+  }
+});
