@@ -33,15 +33,16 @@ function createList() {
     .map((item) => item.value)
     .forEach((person, index) => {
       const listItem = document.createElement("li");
+
       listItem.setAttribute("data-index", index);
       listItem.innerHTML = `
-    
     <span class="number">${index + 1}</span>
-    <div class="draggable" dragabble="true">
+    <div class="draggable" draggable="true">
     <p class="person-name">${person}</p>
     <ion-icon name="menu"></ion-icon>
     </div>
     `;
+
       listItems.push(listItem);
       draggable_list.appendChild(listItem);
     });
