@@ -64,7 +64,7 @@ body {
   flex: 1;
 }
 
-.draggable li.over .draggable {
+.draggable-list li.over .draggable {
   background-color: #eaeaea;
 }
 
